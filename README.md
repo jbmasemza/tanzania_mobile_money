@@ -20,10 +20,15 @@ An intensive campaign to introduce the mobile money services to potential client
 Requered packages
 
 from IPython.display import display, HTML
+
 import pandas as pd
+
 import numpy as np
+
 import seaborn as sns
+
 import matplotlib.pyplot as plt
+
 import folium 
 import webbrowser
 from folium.plugins import MarkerCluster
