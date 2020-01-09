@@ -13,6 +13,17 @@ This dataset is the geospatial mapping of all cash outlets in Tanzania in 2012. 
 
 CONCLUSION
 
-After analysing the dataframe of Tanzanian mobile money users containing 7094 records, it is clear that clear the people still prefer using cash over mobile money. Lot of people still do not use mobile money more often to purchase and recieve funds.
-Young people are active mobile money users than old people, so they still a large number of people who are not using the mobile money services. I think with the right campaigns the mobile money service providers still can reach more clients.
-Married people are target for the mobile money services as they is more of them using it. Traders make more money but not most of them use the mobile money services, so I think they are also the right target market to approach. I think the mobile money services can grow its subscription as there is still a huge number of people who are their target market.
+
+After analysing the dataframe of Tanzanian mobile money users containing 7094 records, it is clear that the people still prefer using cash and other fanancial services over mobile money. Young people are active mobile money users than old people, so there is still a large number of people who are not using the mobile money services. I think with the right campaigns the mobile money service providers can reach more clients. Married people are target for the mobile money services as they is more of them using it. Traders make more money but not most of them use the mobile money services, so they are also the right target market to approach.
+An intensive campaign to introduce the mobile money services to potential clients will definetly attract more people in using it and grow its subscription as there is still a large number of people who are not using it. Most people in our data stay in the rural areas of the country. They rely on trading to make money as they stay near the shore so its easy for them to ship their goods to other places. They rely on agriculture as their main source of production.
+
+Requered packages
+
+from IPython.display import display, HTML
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import folium 
+import webbrowser
+from folium.plugins import MarkerCluster
